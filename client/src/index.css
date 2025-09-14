@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url('./card-fix.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Card-specific styling for shows and media sections */
+.show-card,
+.media-card {
+  background-color: #1f2937 !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+  color: white !important;
+}
+
+.show-card:hover,
+.media-card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.show-card p,
+.media-card p,
+.show-card .description,
+.media-card .description {
+  color: #ffffff !important;
+}
+
+.show-card h3,
+.media-card h3 {
+  color: hsl(var(--primary)) !important;
+}
+
+/* Testimonials styling */
+#testimonials * {
+  color: #ffffff !important;
+}
+
+#testimonials .bg-neutral p,
+#testimonials .bg-gray-800 p {
+  color: #ffffff !important;
+}
+
+/* CMS Manager Text Contrast Improvements */
+.cms-manager label,
+.cms-manager .text-sm,
+.cms-manager .text-xs,
+.cms-manager p {
+  color: #374151 !important; /* gray-700 for light mode */
+}
+
+.dark .cms-manager label,
+.dark .cms-manager .text-sm,
+.dark .cms-manager .text-xs,
+.dark .cms-manager p {
+  color: #d1d5db !important; /* gray-300 for dark mode */
+}
+
+.cms-manager input,
+.cms-manager textarea,
+.cms-manager select {
+  background-color: white !important;
+  color: #111827 !important; /* gray-900 */
+  border-color: #d1d5db !important; /* gray-300 */
+}
+
+.dark .cms-manager input,
+.dark .cms-manager textarea,
+.dark .cms-manager select {
+  background-color: #1f2937 !important; /* gray-800 */
+  color: #f9fafb !important; /* gray-50 */
+  border-color: #4b5563 !important; /* gray-600 */
+}
+
+.cms-manager .card-content {
+  background-color: white !important;
+}
+
+.dark .cms-manager .card-content {
+  background-color: #1f2937 !important;
+}
+
+/* Workshop images - head visibility optimization */
+.workshop-image,
+.school-workshop-image {
+  object-position: center 35% !important;
+}
+
+@media (min-width: 1024px) {
+  .workshop-image,
+  .school-workshop-image {
+    object-position: center 45% !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .workshop-image,
+  .school-workshop-image {
+    object-position: center 60% !important;
+  }
+}
+
+/* Ultra-wide desktop optimization for workshop images */
+@media (min-width: 1920px) {
+  .workshop-image,
+  .school-workshop-image {
+    object-position: center 65% !important;
+  }
+}
+
+/* Contact and Press images - head visibility */
+.contact-image,
+.press-image,
+.shows-image {
+  object-position: center top !important;
+}
+
+.about-image {
+  object-position: center center !important;
+}
+
+@media (min-width: 1024px) {
+  .contact-image,
+  .press-image,
+  .shows-image {
+    object-position: center top !important;
+  }
+  
+  .about-image {
+    object-position: center center !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact-image,
+  .press-image,
+  .shows-image {
+    object-position: center top !important;
+  }
+  
+  .about-image {
+    object-position: center center !important;
+  }
+}
+
+/* Ultra-wide desktop optimization for contact/press/about images */
+@media (min-width: 1920px) {
+  .contact-image,
+  .press-image,
+  .shows-image {
+    object-position: center top !important;
+  }
+  
+  .about-image {
+    object-position: center center !important;
+  }
+}
+
+/* Workshop images - head visibility optimization */
+.workshop-image,
+.videokurs-image {
+  object-position: center top !important;
+}
+
+@media (min-width: 1024px) {
+  .workshop-image {
+    object-position: center top !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .workshop-image {
+    object-position: center 60% !important;
+  }
+}
+
+/* Ultra-wide desktop optimization for workshop images */
+@media (min-width: 1920px) {
+  .workshop-image {
+    object-position: center 70% !important;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-800 rounded-xl shadow-sm border border-gray-700 text-white;
+  }
+  
+  /* Override for show and media cards */
+  .show-card,
+  .media-card {
+    background-color: #1f2937 !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+  }
+
+  .show-card:hover,
+  .media-card:hover {
+    transform: scale(1.05) !important;
+  }
+
+  .show-card .description,
+  .media-card .description,
+  .show-card p,
+  .media-card p {
+    color: #ffffff !important;
+  }
+
+  .show-card h3,
+  .media-card h3 {
+    color: hsl(var(--primary)) !important;
+  }
+  
+  .feature-card-white {
+    background-color: white !important;
+    color: #374151 !important;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  }
+  
+  .feature-card-white h3,
+  .feature-card-white h4 {
+    color: #111827 !important;
+  }
+  
+  .feature-card-white p {
+    color: #6b7280 !important;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary/90 px-6 py-3 rounded-lg font-semibold transition-all;
+  }
+  
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-white hover:border-primary hover:text-primary text-white font-semibold rounded transition-colors;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-heading font-bold mb-6 relative;
+  }
+  
+  .section-subtitle {
+    @apply font-montserrat font-semibold text-xl mb-4;
+  }
+  
+  /* Vocal-inspired styling */
+  body {
+    @apply font-sans text-foreground bg-background;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold text-foreground;
+  }
+  
+  p {
+    @apply text-foreground/90 leading-relaxed font-medium;
+  }
+  
+  /* Override for testimonials and shows */
+  #testimonials p,
+  #shows p,
+  .bg-neutral p,
+  .bg-gray-800 p {
+    color: #ffffff !important;
+  }
+  
+  .container {
+    @apply px-4 md:px-6 max-w-7xl mx-auto;
+  }
+}
+
+:root {
+  /* Vocal WordPress Theme inspired colors */
+  /* Base colors */
+  --background: 0 0% 100%; /* #FFFFFF */
+  --foreground: 220 20% 16%; /* #222733 - Darker text for better contrast */
+  --testimonial-text: 0 0% 100%; /* Force white for testimonials */
+  --muted: 220 17% 93%; /* #EEF0F5 */
+  --muted-foreground: 215 15% 40%; /* #566075 - Lässigeres Grau mit bläulichem Unterton */
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 20% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 20% 16%;
+  --border: 220 16% 90%;
+  --input: 220 16% 90%;
+  
+  /* Primary and brand colors - inspired by Vocal WordPress Theme */
+  --primary: 354 75% 47%; /* #D22A40 - Vocal theme red */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 80% 56%; /* #2F69D9 - Vocal blue accent */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 38 100% 60%; /* #FFBA17 - Gold accent for contrast */
+  --accent-foreground: 220 20% 16%;
+  
+  /* UI colors */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 354 75% 47%;
+  
+  /* Sidebar colors */
+  --sidebar-background: 0 0% 100%;
+  --sidebar-foreground: 220 20% 16%;
+  --sidebar-primary: 354 75% 47%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 17% 93%;
+  --sidebar-accent-foreground: 220 20% 16%;
+  --sidebar-border: 220 16% 90%;
+  --sidebar-ring: 354 75% 47%;
+  
+  --radius: 0.25rem; /* Vocal uses more squared corners */
+}
+
+.dark {
+  /* Base colors - dark mode with better contrast */
+  --background: 220 20% 10%; /* #171B24 - Rich dark background */
+  --foreground: 0 0% 98%; /* #FAFAFA - Bright text for contrast */
+  --muted: 220 15% 16%; /* #252A37 */
+  --muted-foreground: 220 10% 70%; /* #ADB2C0 - Brighter muted text */
+  --popover: 220 20% 10%;
+  --popover-foreground: 0 0% 98%;
+  --card: 220 20% 12%; /* #1B202B */
+  --card-foreground: 0 0% 98%;
+  --border: 220 15% 20%;
+  --input: 220 15% 20%;
+  
+  /* Primary and brand colors - enhanced for dark mode */
+  --primary: 354 80% 55%; /* #EF344D - Brighter red for dark mode */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 85% 65%; /* #4D7EE3 - Brighter blue for dark mode */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 38 100% 65%; /* #FFC533 - Brighter gold for dark mode */
+  --accent-foreground: 220 20% 10%;
+  
+  /* UI colors */
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 354 80% 55%;
+  
+  /* Sidebar colors */
+  --sidebar-background: 220 20% 10%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 354 80% 55%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 220 15% 16%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-border: 220 15% 20%;
+  --sidebar-ring: 354 80% 55%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-opensans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat;
+  }
+}
+
+
+
+@layer utilities {
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .animate-slide {
+    animation: slide 30s linear infinite;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  .bg-blur {
+    backdrop-filter: blur(8px);
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Modal text override */
+  #show-modal p {
+    color: #374151 !important;
+  }
+}
