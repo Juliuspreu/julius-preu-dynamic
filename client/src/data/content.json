@@ -1,0 +1,172 @@
+{
+  "seo": {
+    "siteName": "Julius Preu - Jonglissimo",
+    "defaultTitle": "Julius Preu - Jonglissimo | Weltmeister der Jonglage",
+    "defaultDescription": "Professionelle Jonglage-Performances und Workshops von Weltmeister Julius Preu. Spektakuläre Shows und interaktive Workshops für Events, Unternehmen und Schulen in Deutschland und Österreich.",
+    "defaultKeywords": "Jonglage, Weltmeister, Julius Preu, LED Show, Workshop, Teambuilding, Performance, Event, Deutschland, Österreich",
+    "author": "Julius Preu",
+    "twitterCard": "summary_large_image",
+    "ogType": "website",
+    "ogImage": "/Juli.jpg",
+    "pages": {
+      "home": {
+        "title": "Julius Preu - Jonglissimo | Weltmeister der Jonglage",
+        "description": "Spektakuläre Jonglage-Performances und interaktive Workshops von Weltmeister Julius Preu. LED Shows, Solo Acts und maßgeschneiderte Events.",
+        "keywords": "Jonglage Weltmeister, LED Show, Julius Preu, Jonglissimo, Performance, Event Entertainment"
+      },
+      "shows": {
+        "title": "Spektakuläre Shows | Julius Preu Jonglissimo",
+        "description": "Entdecken Sie die beeindruckenden Show-Formate von Weltmeister Julius Preu: LED Light Shows, Solo Performances und Duo Acts für unvergessliche Events.",
+        "keywords": "LED Jonglage Show, Solo Performance, Duo Act, Kings Gambit, Event Show, Bühnenshow"
+      },
+      "workshops": {
+        "title": "Interaktive Workshops | Julius Preu Jonglissimo",
+        "description": "Professionelle Jonglier-Workshops für Unternehmen, Schulen und Privatpersonen. Teambuilding und pädagogische Programme vom Weltmeister.",
+        "keywords": "Jonglage Workshop, Teambuilding, Schul-Workshop, Corporate Event, Jonglieren lernen"
+      },
+      "about": {
+        "title": "Über Julius Preu | Weltmeister der Jonglage",
+        "description": "Lernen Sie Julius Preu kennen - Weltmeister im Jonglieren mit über 15 Jahren Erfahrung. Von internationalen Bühnen bis zu intimen Veranstaltungen.",
+        "keywords": "Julius Preu, Jonglage Weltmeister, Biografie, Erfahrung, professioneller Jongleur"
+      },
+      "contact": {
+        "title": "Kontakt | Julius Preu Jonglissimo",
+        "description": "Kontaktieren Sie Weltmeister Julius Preu für Ihre nächste Veranstaltung. Shows und Workshops in Deutschland und Österreich verfügbar.",
+        "keywords": "Jonglage buchen, Kontakt Julius Preu, Event Anfrage, Workshop buchen"
+      },
+      "videokurs": {
+        "title": "Online Videokurs | Julius Preu Jonglissimo",
+        "description": "Lernen Sie Jonglieren online mit Weltmeister Julius Preu. Videokurse für Anfänger und Fortgeschrittene mit Schritt-für-Schritt Anleitungen.",
+        "keywords": "Jonglage lernen, Online Kurs, Videokurs, Jonglieren lernen, Julius Preu"
+      },
+      "media": {
+        "title": "Pressebereich | Julius Preu Jonglissimo",
+        "description": "Pressefotos, Videos und Biografien von Weltmeister Julius Preu. Professionelle Medien für Ihre Berichterstattung.",
+        "keywords": "Pressefotos, Julius Preu Biografie, Medien, Presse, Jonglage Videos"
+      }
+    }
+  },
+  "hero": {
+    "title": "Präzise Jonglage trifft Innovation",
+    "subtitle": "Weltmeister-Performances für unvergessliche Events und inspirierende Workshops",
+    "backgroundImage": "/Juli.jpg"
+  },
+  "shows": [
+    {
+      "id": "kings-gambit",
+      "title": "Kings Gambit",
+      "description": "Eine spannende und innovative Leuchtkeulenjonglage, welche nicht nur die Jury der Jonglierweltmeisterschaft 2024 überzeugte, sondern auch die Sinne verzaubert! Der Act \"Kings Gambit\" verkörpert eine rasante Leuchtkeulen Performance mit atemberaubender Präzision, synchronisiert zur mitreißenden Musik!",
+      "imageUrl": "/20240627-DSC03407.jpg",
+      "videoUrl": "https://www.youtube.com/embed/qlctkxLUaPA",
+      "category": "led",
+      "duration": "10-15 Min",
+      "audience": "50-1000+ Zuschauer",
+      "lighting": "Dunkel bevorzugt"
+    },
+    {
+      "id": "led-solo",
+      "title": "LED Solo Performance",
+      "description": "Ein faszinierender Solo-Act mit leuchtenden Keulen, der durch perfekte Präzision und eindrucksvolle Lichteffekte besticht. Die synchrone Choreographie zur Musik erschafft eine magische Atmosphäre für Ihr Event.",
+      "imageUrl": "/20240627-DSC03436.jpg",
+      "videoUrl": "https://www.youtube.com/embed/Mj8YMKa6FSQ",
+      "category": "led",
+      "duration": "8-20 Min",
+      "audience": "30-800 Zuschauer",
+      "lighting": "Dunkel erforderlich"
+    },
+    {
+      "id": "duo-performance",
+      "title": "Duo Performance",
+      "description": "Synchrone Jonglage zu zweit mit spektakulären Partnertricks. Doppelte Präzision für beeindruckende Momente.",
+      "imageUrl": "/20240627-DSC03185.jpg",
+      "videoUrl": "",
+      "category": "duo",
+      "duration": "12-18 Min",
+      "audience": "50-800 Zuschauer",
+      "lighting": "Tag & Abend"
+    }
+  ],
+  "workshops": {
+    "intro": {
+      "title": "Interaktive Workshops",
+      "subtitle": "Entdecken Sie maßgeschneiderte Jonglier-Workshops für verschiedene Zielgruppen und Anlässe. Lernen Sie von einem Weltmeister!"
+    },
+    "types": [
+      {
+        "id": "corporate",
+        "name": "Firmenkunden",
+        "title": "Teambuilding & Events für Unternehmen",
+        "description": "Stärken Sie den Zusammenhalt und die Kreativität Ihres Teams mit einem maßgeschneiderten Jonglier-Workshop. Diese interaktiven Sessions fördern Konzentration, Koordination und Kommunikation in einer entspannten, spielerischen Atmosphäre.",
+        "benefits": [
+          "Verbesserte Teamdynamik und Zusammenarbeit",
+          "Stressabbau und Förderung der Work-Life-Balance",
+          "Entwicklung von Durchhaltevermögen und Fokus",
+          "Einzigartige Teamerfahrung abseits des Büroalltags",
+          "Möglichkeit für kreative Pausen bei mehrtägigen Konferenzen"
+        ],
+        "participants": "10-100",
+        "duration": "1-4 Std",
+        "experience": "Alle Levels",
+        "imageUrl": "/JPI_3313.jpg"
+      },
+      {
+        "id": "schools",
+        "name": "Schulen",
+        "title": "Pädagogische Programme für Schulen",
+        "description": "Jonglieren fördert Konzentration, Koordination und Selbstvertrauen. Unsere altersgerechten Programme verbinden Spaß mit Lernen und bieten Schülern eine neue Art der Bewegung und Kreativität.",
+        "benefits": [
+          "Förderung von Konzentration und Aufmerksamkeit",
+          "Verbesserung der Hand-Augen-Koordination",
+          "Stärkung des Selbstvertrauens durch Erfolgserlebnisse",
+          "Spielerisches Lernen und Bewegung",
+          "Altersgerechte Programme für verschiedene Klassenstufen"
+        ],
+        "participants": "15-80",
+        "duration": "45-90 Min",
+        "experience": "6-18 Jahre",
+        "imageUrl": "/JPI_2779.jpg"
+      }
+    ]
+  },
+  "about": {
+    "title": "Über Julius Preu",
+    "subtitle": "Als Weltmeister im Jonglieren bringe ich über 15 Jahre Erfahrung in die Welt der präzisen Jonglage ein.",
+    "description": "Meine Leidenschaft liegt darin, die Grenzen des Möglichen zu erweitern und dabei Eleganz mit Innovation zu verbinden. Von internationalen Bühnen bis hin zu intimen Veranstaltungen - jede Performance wird mit höchster Präzision und kreativer Vision gestaltet.",
+    "achievements": [
+      {
+        "number": "1",
+        "text": "Weltmeister",
+        "description": "Jonglage Weltmeisterschaft 2023"
+      },
+      {
+        "number": "15+",
+        "text": "Jahre Erfahrung",
+        "description": "Professionelle Jonglage seit 2009"
+      },
+      {
+        "number": "500+",
+        "text": "Auftritte",
+        "description": "Performances in Deutschland & Österreich"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Bereit für eine unvergessliche Performance oder einen inspirierenden Workshop? Lassen Sie uns über Ihr Event sprechen!",
+    "email": "info@juliuspreu.com",
+    "phone": "+49 (0) 123 456 789",
+    "location": "Deutschland & Österreich"
+  },
+  "testimonials": [
+    {
+      "text": "Ein fantastischer Workshop! Julius hat es geschafft, unser gesamtes Team zu begeistern und zusammenzubringen. Die Stimmung war großartig und wir haben viel gelacht.",
+      "author": "Sarah M.",
+      "position": "HR-Managerin, TechCorp GmbH"
+    },
+    {
+      "text": "Unsere Schüler waren völlig begeistert! Julius hat eine wunderbare Art, die Kinder zu motivieren. Viele jonglieren jetzt in den Pausen weiter.",
+      "author": "Michael K.",
+      "position": "Sportlehrer, Grundschule Musterstadt"
+    }
+  ]
+}
