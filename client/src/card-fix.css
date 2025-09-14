@@ -1,0 +1,61 @@
+/* EXPLICIT CARD STYLING - HIGHEST PRIORITY */
+.show-card,
+.media-card,
+div[class*="show-card"],
+div[class*="media-card"] {
+  background-color: #1f2937 !important;
+  background: #1f2937 !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+  color: white !important;
+  border: 1px solid #374151 !important;
+  display: block !important;
+}
+
+.show-card:hover,
+.media-card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.show-card .card-content,
+.media-card .card-content {
+  background-color: #1f2937 !important;
+  padding: 1.5rem !important;
+}
+
+.show-card .description,
+.media-card .description,
+.show-card p,
+.media-card p {
+  color: #ffffff !important;
+  margin-bottom: 1rem !important;
+}
+
+.show-card h3,
+.media-card h3 {
+  color: #dc2626 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.show-card .btn,
+.media-card .btn,
+.show-card button,
+.media-card button {
+  color: #dc2626 !important;
+  margin-top: 1rem !important;
+}
+
+/* Override any conflicting styles */
+div[class*="show-card"],
+div[class*="media-card"] {
+  background-color: #1f2937 !important;
+}
+
+div[class*="show-card"] p,
+div[class*="media-card"] p {
+  color: #ffffff !important;
+}
