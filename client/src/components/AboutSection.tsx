@@ -73,7 +73,7 @@ export default function AboutSection() {
               <div className="absolute -left-4 -top-4 w-24 h-24 bg-primary/10 rounded-full"></div>
               <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-secondary/10 rounded-full"></div>
               <img
-                src="/attached_assets/IMG_1044_1749494025590.jpg"
+                src="/public/IMG_1044_1749494025590.jpg"
                 alt="Julius Preu - Jongleur"
                 className="rounded-lg shadow-lg relative z-10 w-full h-auto"
               />

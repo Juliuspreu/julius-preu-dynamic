@@ -22,10 +22,10 @@ export default function WorkshopsSection() {
 
   // School workshop images
   const schoolImages = [
-    "/export_new/JPI_2779.jpg",
-    "/export_new/JPI_3301.jpg", 
-    "/export_new/JPI_3037.jpg",
-    "/export_new/JPI_3313.jpg"
+    "/JPI_2779.jpg",
+    "/JPI_3301.jpg", 
+    "/JPI_3037.jpg",
+    "/JPI_3313.jpg"
   ];
 
   // School testimonials data

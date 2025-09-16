@@ -44,7 +44,7 @@ export default function ShowsSection() {
             description:
               "Ein faszinierender Solo-Act mit leuchtenden LED-Bällen und Keulen sowie einem interaktiven, programmierten Tor aus LED-Keulen. Durch perfekte Präzision und eindrucksvolle Lichteffekte besticht dieser Act. Die synchrone Choreographie zur Musik erschafft eine magische Atmosphäre für Ihr Event.",
             videoUrl: "https://www.youtube.com/embed/niDQsEosK0s",
-            imageUrl: "/JuliusPreu 5c_1751623892223.jpg",
+            imageUrl: "/20240627-DSC03436.jpg",
             category: "solo",
           },
           {

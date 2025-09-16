@@ -46,7 +46,7 @@ export default function Shows() {
         <ShowsSection />
 
         {/* Performance Details */}
-        <section className="py-20 bg-gray-50">
+        <section className="text-center py-20 bg-gray-50 align-center-test">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
